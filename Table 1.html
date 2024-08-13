@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+        caption {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>STATS</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Game Won</th>
+                <th>Games Lost</th>
+                <th>K/D</th>
+                <th>Rank</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Durayd</td>
+                <td>9999+</td>
+                <td>0</td>
+                <td>99,99</td>
+                <td>Goat</td>
+            </tr>
+            <tr>
+                <td>Shadi</td>
+                <td>A few</td>
+                <td>Most of em </td>
+                <td>0.420</td>
+                <td>meh</td>
+            </tr>
+            <tr>
+                <td>Ahmad</td>
+                <td>None</td>
+                <td>a lot</td>
+                <td>1 (got only 1 kill)</td>
+                <td>idk</td>
+            </tr>
+            <tr>
+                <td>Guzlan</td>
+                <td>doesnt know the word winning </td>
+                <td>all of em</td>
+                <td>imma leave this empty</td>
+                <td>NOOB</td>
+            </tr>
+           
+        </tbody>
+    </table>
+</body>
+</html>
